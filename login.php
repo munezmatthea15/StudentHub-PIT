@@ -197,7 +197,7 @@ button:hover {
 <div class="login-container">
 
     <section class="brand">
-        <div class="logo">S</div>
+        <div class="logo"></div>
         <h1>StudentHub</h1>
         <p>Student Information Management System</p>
         <p>Organize. Manage. Connect.</p>
