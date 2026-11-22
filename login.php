@@ -51,8 +51,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg,
-        #4f46e5, #9333ea, #38bdf8);
+    background-image:
+        linear-gradient(135deg,
+            rgba(49,46,129,0.65),
+            rgba(79,70,229,0.35)),
+        url('campus.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 25px;
 }
 
@@ -60,10 +66,12 @@ body {
     display: flex;
     width: 850px;
     max-width: 100%;
-    background: white;
+    background: rgba(255,255,255,0.94);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255,255,255,0.5);
     border-radius: 24px;
     overflow: hidden;
-    box-shadow: 0 25px 60px #0003;
+    box-shadow: 0 25px 80px rgba(0,0,0,0.25);
 }
 
 .brand {
